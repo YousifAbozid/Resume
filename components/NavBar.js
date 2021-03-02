@@ -29,8 +29,23 @@ const NavBar = () => {
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div
+                    className="collapse navbar-collapse justify-content-evenly"
+                    id="navbarNav"
+                >
                     <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link href="/skills">
+                                <a
+                                    className={
+                                        "nav-link btn btn-info " +
+                                        isActive("/skills")
+                                    }
+                                >
+                                    Skills
+                                </a>
+                            </Link>
+                        </li>
                         <li className="nav-item">
                             <Link href="/projects">
                                 <a
@@ -39,6 +54,17 @@ const NavBar = () => {
                                     }
                                 >
                                     Projects
+                                </a>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="/contact">
+                                <a
+                                    className={
+                                        "nav-link " + isActive("/contact")
+                                    }
+                                >
+                                    Contact
                                 </a>
                             </Link>
                         </li>

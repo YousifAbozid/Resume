@@ -1,12 +1,13 @@
 import Head from "next/head"
+import Link from "next/link"
 
 const Home = () => {
     return (
         <div>
             <Head>
-                <title>Yousif's Resume</title>
+                <title>About Me</title>
             </Head>
-            hi
+            about me
         </div>
     )
 }

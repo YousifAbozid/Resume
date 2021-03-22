@@ -18,7 +18,7 @@ const skills = () => {
                         many platforms such as Heroku, Netlify and Vercel, CI/CD
                         and many more
                     </h5>
-                    <ProgressBar value="100" />
+                    <ProgressBar value="90" />
                     <p>Excellent Level</p>
                 </div>
 

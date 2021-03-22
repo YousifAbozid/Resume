@@ -6,6 +6,11 @@ class MyDocument extends Document {
             <Html lang="en">
                 <Head>
                     <meta name="description" content="Yousif's Resume" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap"
+                        rel="stylesheet"
+                    />
                     <link
                         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
                         rel="stylesheet"

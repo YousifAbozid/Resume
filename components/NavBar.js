@@ -15,9 +15,6 @@ const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <Link href="/">
-                    <a className="navbar-brand">Yousif's Resume</a>
-                </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -35,37 +32,43 @@ const NavBar = () => {
                 >
                     <ul className="navbar-nav">
                         <li className="nav-item">
+                            <Link href="/">
+                                <button className={"nav-link " + isActive("/")}>
+                                    About Me
+                                </button>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link href="/skills">
-                                <a
+                                <button
                                     className={
-                                        "nav-link btn btn-info " +
-                                        isActive("/skills")
+                                        "nav-link " + isActive("/skills")
                                     }
                                 >
                                     Skills
-                                </a>
+                                </button>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link href="/projects">
-                                <a
+                                <button
                                     className={
                                         "nav-link " + isActive("/projects")
                                     }
                                 >
                                     Projects
-                                </a>
+                                </button>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link href="/contact">
-                                <a
+                                <button
                                     className={
                                         "nav-link " + isActive("/contact")
                                     }
                                 >
                                     Contact
-                                </a>
+                                </button>
                             </Link>
                         </li>
                     </ul>

@@ -2,8 +2,7 @@ html,
 body {
     padding: 5px;
     margin: 5px;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Della Respira", serif;
 }
 
 a {
@@ -13,4 +12,23 @@ a {
 
 * {
     box-sizing: border-box;
+}
+
+button {
+    border: hidden;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10%;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+
+button:hover {
+    background-color: cyan;
+}
+
+p {
+    font-size: larger;
 }

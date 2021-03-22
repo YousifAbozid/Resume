@@ -33,7 +33,7 @@ const NavBar = () => {
                     >
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link href="/">
+                                <Link href="/#about_me">
                                     <button
                                         className={"nav-link " + isActive("/")}
                                     >
@@ -42,7 +42,7 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/skills">
+                                <Link href="/skills#skills">
                                     <button
                                         className={
                                             "nav-link " + isActive("/skills")
@@ -53,7 +53,7 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/projects">
+                                <Link href="/projects#projects">
                                     <button
                                         className={
                                             "nav-link " + isActive("/projects")
@@ -64,7 +64,7 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/contact">
+                                <Link href="/contact#contact">
                                     <button
                                         className={
                                             "nav-link " + isActive("/contact")

@@ -7,7 +7,7 @@ const Home = () => {
                 <title>Yousif's Resume | About Me</title>
             </Head>
 
-            <div>
+            <div className="about_me">
                 <h1>About me</h1>
                 <p>
                     I'm 22 years old Full Stack Web Developer From Egypt, I

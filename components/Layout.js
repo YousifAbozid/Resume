@@ -6,7 +6,7 @@ import SocialButtons from "./SocialButtons"
 const Layout = ({ children }) => {
     return (
         <div className="row">
-            <div className="col-md-4" style={{ border: "1px solid black" }}>
+            <div className="col-md-4">
                 <Avatar />
                 <div className="bio">
                     <h2>Yousif Abozid</h2>
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
                 </div>
                 <SocialButtons />
             </div>
-            <div className="col-md-8" style={{ border: "1px solid black" }}>
+            <div className="col-md-8">
                 <NavBar />
                 {children}
             </div>

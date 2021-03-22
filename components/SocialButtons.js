@@ -7,7 +7,7 @@ const SocialButtons = () => {
                 rel="noopener noreferrer"
             >
                 <span>
-                    <i className="fab fa-github"></i>
+                    <i className="fab fa-github" aria-hidden></i>
                 </span>
                 GitHub
             </a>
@@ -17,7 +17,7 @@ const SocialButtons = () => {
                 rel="noopener noreferrer"
             >
                 <span>
-                    <i className="fab fa-facebook"></i>
+                    <i className="fab fa-facebook" aria-hidden></i>
                 </span>
                 FaceBook
             </a>
@@ -27,7 +27,7 @@ const SocialButtons = () => {
                 rel="noopener noreferrer"
             >
                 <span>
-                    <i className="fab fa-telegram"></i>
+                    <i className="fab fa-telegram" aria-hidden></i>
                 </span>
                 Telegram
             </a>
@@ -37,7 +37,7 @@ const SocialButtons = () => {
                 rel="noopener noreferrer"
             >
                 <span>
-                    <i className="fas fa-at"></i>
+                    <i className="fas fa-at" aria-hidden></i>
                 </span>
                 Mail
             </a>

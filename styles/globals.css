@@ -160,6 +160,10 @@ footer a {
     text-decoration: none;
 }
 
+footer span {
+    font-size: 25px;
+}
+
 footer span i {
     font-size: 25px;
 }

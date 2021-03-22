@@ -63,17 +63,6 @@ const NavBar = () => {
                                     </button>
                                 </Link>
                             </li>
-                            <li className="nav-item">
-                                <Link href="/contact#contact">
-                                    <button
-                                        className={
-                                            "nav-link " + isActive("/contact")
-                                        }
-                                    >
-                                        Contact
-                                    </button>
-                                </Link>
-                            </li>
                         </ul>
                     </div>
                 </div>

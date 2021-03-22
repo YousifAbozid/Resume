@@ -5,16 +5,11 @@ body {
     font-family: "Della Respira", serif;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
 * {
     box-sizing: border-box;
 }
 
-button {
+nav button {
     border: hidden;
     padding: 5px;
     margin: 5px;
@@ -26,7 +21,7 @@ button {
     transition: 0s background-color;
 }
 
-button:hover {
+nav button:hover {
     background-color: cyan;
     transition-delay: 100ms;
 }
@@ -55,4 +50,36 @@ p {
 .bio {
     text-align: center;
     color: crimson;
+}
+
+.social_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 10px 10px;
+}
+
+.social_buttons span {
+    margin-right: 7px;
+    font-size: 30px;
+}
+
+.social_buttons a {
+    min-width: 25px;
+    border: hidden;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2%;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: cornflowerblue;
+    transition: 0s background-color;
+}
+
+.social_buttons a:hover {
+    background-color: cyan;
+    transition-delay: 100ms;
 }

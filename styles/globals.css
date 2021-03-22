@@ -1,12 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     padding: 5px;
     margin: 5px;
     font-family: "Della Respira", serif;
+    /* overflow-y: hidden; Hide vertical scrollbar
+    overflow-x: hidden; Hide horizontal scrollbar */
 }
 
-* {
-    box-sizing: border-box;
+/* ----------- Customize Scroll Bar -------- */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0d6efd;
+    border-radius: 10px;
+}
+
+/* ----------- Nav Bar -------- */
+.navbar_container {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: initial;
 }
 
 nav button {
@@ -17,15 +47,16 @@ nav button {
     font-size: larger;
     font-weight: bold;
     text-align: center;
-    background-color: white;
+    background-color: transparent;
     transition: 0s background-color;
 }
 
 nav button:hover {
-    background-color: cyan;
+    background-color: #0dd9fd;
     transition-delay: 100ms;
 }
 
+/* ----------- About ME -------- */
 .about_me p {
     font-size: 30px;
 }
@@ -39,6 +70,7 @@ h1 {
     font-size: 50px;
 }
 
+/* ----------- Avatar -------- */
 .avatar {
     height: 312px;
     width: 312px;
@@ -93,10 +125,40 @@ h1 {
     transition-delay: 100ms;
 }
 
+/* ----------- Skills -------- */
 .skills p {
     border-bottom: 1px solid crimson;
 }
 
 #last_child {
     border-bottom: none;
+}
+
+/* ----------- Layout -------- */
+.layout {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 50px; /* height of your footer */
+}
+
+/* ----------- Footer -------- */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    background-color: rgb(61, 71, 76);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer span i {
+    font-size: 25px;
 }

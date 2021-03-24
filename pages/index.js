@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div>
             <Head>
-                <title>Yousif's Resume | About Me</title>
+                <title>Yousif's Portfolio | About Me</title>
             </Head>
 
             <div className="about_me" id="about_me">

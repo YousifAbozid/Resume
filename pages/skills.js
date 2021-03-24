@@ -5,7 +5,7 @@ const skills = () => {
     return (
         <div>
             <Head>
-                <title>Yousif's Resume | Skills</title>
+                <title>Yousif's Portfolio | Skills</title>
             </Head>
 
             <div className="skills" id="skills">
